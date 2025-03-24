@@ -12,16 +12,16 @@ ImageLabel.Image = "rbxassetid://111311683582193"
 ImageLabel.BackgroundTransparency = 1
 ImageLabel.ScaleType = Enum.ScaleType.Crop
 
--- ตั้งค่า CloseButton (ปุ่มกากบาท)
+
 CloseButton.Parent = ScreenGui
-CloseButton.Size = UDim2.new(0, 50, 0, 50) -- ขนาดปุ่ม
-CloseButton.Position = UDim2.new(1, -60, 0, 10) -- มุมขวาบน
+CloseButton.Size = UDim2.new(0, 50, 0, 50)
+CloseButton.Position = UDim2.new(1, -60, 0, 10)
 CloseButton.Text = "X"
-CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255) -- สีตัวอักษรขาว
-CloseButton.BackgroundColor3 = Color3.fromRGB(200, 0, 0) -- พื้นหลังแดง
+CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 CloseButton.Font = Enum.Font.SourceSansBold
 CloseButton.TextSize = 30
-CloseButton.BorderSizePixel = 0 -- ไม่มีขอบ
+CloseButton.BorderSizePixel = 0
 
 -- กดปุ่มแล้วปิด UI
 CloseButton.MouseButton1Click:Connect(function()
