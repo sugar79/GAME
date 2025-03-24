@@ -8,13 +8,13 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ImageLabel.Parent = ScreenGui
 ImageLabel.Size = UDim2.new(1, 0, 1, 0)
 ImageLabel.Position = UDim2.new(0, 0, 0, 0)
-ImageLabel.Image = "rbxassetid://IMAGE_ID_HERE" -- ใส่ ID ของภาพ Jeff the Killer
+ImageLabel.Image = "rbxassetid://1234567890" -- ใส่ ID ของภาพ Jeff the Killer
 ImageLabel.BackgroundTransparency = 1
 ImageLabel.Visible = false -- ซ่อนภาพก่อน
 
 -- ตั้งค่า Sound (เสียงจัมป์สแกร์)
 Sound.Parent = game.Workspace
-Sound.SoundId = "rbxassetid://SOUND_ID_HERE" -- ใส่ ID ของเสียงจัมป์สแกร์
+Sound.SoundId = "rbxassetid://0987654321" -- ใส่ ID ของเสียงจัมป์สแกร์
 Sound.Volume = 5
 Sound.PlayOnRemove = true -- เล่นเสียงเมื่อถูกลบ
 Sound.Looped = false
