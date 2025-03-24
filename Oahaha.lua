@@ -8,7 +8,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ImageLabel.Parent = ScreenGui
 ImageLabel.Size = UDim2.new(1, 0, 1, 0)
 ImageLabel.Position = UDim2.new(0, 0, 0, 0)
-ImageLabel.Image = "rbxassetid://1234567890" -- ใส่ ID ของภาพ Jeff the Killer
+ImageLabel.Image = "rbxassetid://89029527827903" -- ใส่ ID ของภาพ Jeff the Killer
 ImageLabel.BackgroundTransparency = 1
 ImageLabel.Visible = false -- ซ่อนภาพก่อน
 
