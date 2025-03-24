@@ -14,7 +14,7 @@ ImageLabel.Visible = false -- ซ่อนภาพก่อน
 
 -- ตั้งค่า Sound (เสียงจัมป์สแกร์)
 Sound.Parent = game.Workspace
-Sound.SoundId = "rbxassetid://0987654321" -- ใส่ ID ของเสียงจัมป์สแกร์
+Sound.SoundId = "rbxassetid://85370592420032" -- ใส่ ID ของเสียงจัมป์สแกร์
 Sound.Volume = 5
 Sound.PlayOnRemove = true -- เล่นเสียงเมื่อถูกลบ
 Sound.Looped = false
