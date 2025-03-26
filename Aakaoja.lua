@@ -1,5 +1,5 @@
 local function ReduceFPS()
-    RunService:Set3dRenderingEnabled(true)
+    RunService:Set3dRenderingEnabled(false)
     local oldStep = RunService.RenderStepped:Connect(function()
         task.wait(1/10)
     end)
